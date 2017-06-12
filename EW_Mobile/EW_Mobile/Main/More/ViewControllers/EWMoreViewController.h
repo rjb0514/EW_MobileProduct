@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  EWMoreViewController.h
 //  EW_Mobile
 //
 //  Created by ru on 2017/6/12.
 //  Copyright © 2017年 GMJK. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "EWBaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface EWMoreViewController : EWBaseViewController
 
 @end
-

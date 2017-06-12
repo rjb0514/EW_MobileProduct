@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "EWTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    self.window = [[UIWindow alloc] init];
+    
+    EWTabBarController *tabVC = [[EWTabBarController alloc] init];
+    
+    self.window.rootViewController = tabVC;
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 
