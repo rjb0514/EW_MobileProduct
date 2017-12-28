@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9319A04C1F6144C6003F63C0 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9319A04B1F6144C6003F63C0 /* UIColor+Gradient.m */; };
 		93CC07551EEE310C00192B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC07541EEE310C00192B73 /* main.m */; };
 		93CC075E1EEE310C00192B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CC075C1EEE310C00192B73 /* Main.storyboard */; };
 		93CC07601EEE310C00192B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CC075F1EEE310C00192B73 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		93CC07B91EEE3A3500192B73 /* EWMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC07B81EEE3A3500192B73 /* EWMoreViewController.m */; };
 		93CC07BC1EEE3A4200192B73 /* EWShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC07BB1EEE3A4200192B73 /* EWShareViewController.m */; };
 		93CC07BE1EEE405D00192B73 /* Public.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CC07BD1EEE405D00192B73 /* Public.xcassets */; };
+		93E053381FF5007E00CDED65 /* RJBFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E053361FF5007E00CDED65 /* RJBFPSLabel.m */; };
 		C2B5D856AF416964459731EA /* libPods-EW_Mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB7BBDD67D8C32C675DEB5B /* libPods-EW_Mobile.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		1F48FE567EDEDEBE8B8A5816 /* Pods-EW_Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EW_Mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EW_Mobile/Pods-EW_Mobile.debug.xcconfig"; sourceTree = "<group>"; };
 		7BB7BBDD67D8C32C675DEB5B /* libPods-EW_Mobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EW_Mobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D600936E1B7A867CDC46817 /* Pods-EW_Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EW_Mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-EW_Mobile/Pods-EW_Mobile.release.xcconfig"; sourceTree = "<group>"; };
+		9319A04A1F6144C6003F63C0 /* UIColor+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
+		9319A04B1F6144C6003F63C0 /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
 		93CC07501EEE310C00192B73 /* EW_Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EW_Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CC07541EEE310C00192B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93CC075D1EEE310C00192B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		93CC07BA1EEE3A4200192B73 /* EWShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWShareViewController.h; sourceTree = "<group>"; };
 		93CC07BB1EEE3A4200192B73 /* EWShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWShareViewController.m; sourceTree = "<group>"; };
 		93CC07BD1EEE405D00192B73 /* Public.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Public.xcassets; sourceTree = "<group>"; };
+		93E053361FF5007E00CDED65 /* RJBFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJBFPSLabel.m; sourceTree = "<group>"; };
+		93E053371FF5007E00CDED65 /* RJBFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJBFPSLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				93CC07731EEE33D800192B73 /* Placeholder */,
+				9319A04A1F6144C6003F63C0 /* UIColor+Gradient.h */,
+				9319A04B1F6144C6003F63C0 /* UIColor+Gradient.m */,
+				93E053371FF5007E00CDED65 /* RJBFPSLabel.h */,
+				93E053361FF5007E00CDED65 /* RJBFPSLabel.m */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -493,9 +503,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E053381FF5007E00CDED65 /* RJBFPSLabel.m in Sources */,
 				93CC077E1EEE353A00192B73 /* AppDelegate.m in Sources */,
 				93CC07851EEE37F900192B73 /* EWBaseNavViewController.m in Sources */,
 				93CC07B91EEE3A3500192B73 /* EWMoreViewController.m in Sources */,
+				9319A04C1F6144C6003F63C0 /* UIColor+Gradient.m in Sources */,
 				93CC07881EEE380700192B73 /* EWBaseViewController.m in Sources */,
 				93CC07551EEE310C00192B73 /* main.m in Sources */,
 				93CC07BC1EEE3A4200192B73 /* EWShareViewController.m in Sources */,

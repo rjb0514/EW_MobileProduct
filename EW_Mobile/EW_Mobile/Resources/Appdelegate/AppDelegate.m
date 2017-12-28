@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "EWTabBarController.h"
+#import "RJBFPSLabel.h"
 
 @interface AppDelegate ()
 
@@ -26,6 +27,9 @@
     self.window.rootViewController = tabVC;
     
     [self.window makeKeyAndVisible];
+    
+    //显示 帧label    
+    [self.window addSubview:[RJBFPSLabel new]];
     
     
     
