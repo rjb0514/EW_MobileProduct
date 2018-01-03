@@ -37,14 +37,25 @@
         fpsWindow.backgroundColor = [UIColor clearColor];
         fpsWindow.rootViewController = [UIViewController new];
         RJBFPSLabel *fpsLabel = [RJBFPSLabel new];
-        fpsWindow.userInteractionEnabled = NO;
+//        fpsWindow.userInteractionEnabled = NO;
         fpsLabel.center = fpsWindow.center;
         [fpsWindow addSubview:fpsLabel];
     });
     return fpsWindow;
 }
 
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
 
+    UIView *view = [super hitTest:point withEvent:event];
+
+    if ([view isEqual:self.rootViewController.view]) {
+        return nil;
+    }else {
+        return view;
+    }
+
+
+}
 
 @end
 

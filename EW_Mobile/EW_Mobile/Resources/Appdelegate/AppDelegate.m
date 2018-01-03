@@ -29,7 +29,8 @@
     [self.window makeKeyAndVisible];
     
     //显示 帧label    
-    [self.window addSubview:[RJBFPSLabel new]];
+//    [self.window addSubview:[RJBFPSLabel new]];
+    [RJBFPSWindow sharedFPSWindow];
     
     
     
