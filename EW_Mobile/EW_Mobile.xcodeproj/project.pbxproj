@@ -36,6 +36,7 @@
 		93CC07BC1EEE3A4200192B73 /* EWShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC07BB1EEE3A4200192B73 /* EWShareViewController.m */; };
 		93CC07BE1EEE405D00192B73 /* Public.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CC07BD1EEE405D00192B73 /* Public.xcassets */; };
 		93E053381FF5007E00CDED65 /* RJBFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E053361FF5007E00CDED65 /* RJBFPSLabel.m */; };
+		93EAA42D201867B7001A6A30 /* MYFShowPicutreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EAA42C201867B7001A6A30 /* MYFShowPicutreView.m */; };
 		C2B5D856AF416964459731EA /* libPods-EW_Mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB7BBDD67D8C32C675DEB5B /* libPods-EW_Mobile.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,8 @@
 		93CC07BD1EEE405D00192B73 /* Public.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Public.xcassets; sourceTree = "<group>"; };
 		93E053361FF5007E00CDED65 /* RJBFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJBFPSLabel.m; sourceTree = "<group>"; };
 		93E053371FF5007E00CDED65 /* RJBFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJBFPSLabel.h; sourceTree = "<group>"; };
+		93EAA42B201867B7001A6A30 /* MYFShowPicutreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYFShowPicutreView.h; sourceTree = "<group>"; };
+		93EAA42C201867B7001A6A30 /* MYFShowPicutreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYFShowPicutreView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,7 @@
 		93CC07521EEE310C00192B73 /* EW_Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				93EAA42A201867B7001A6A30 /* OtherFunction */,
 				93CC076B1EEE33AC00192B73 /* Main */,
 				93CC076A1EEE33AC00192B73 /* Expand */,
 				93CC076C1EEE33AC00192B73 /* Resources */,
@@ -364,6 +368,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		93EAA42A201867B7001A6A30 /* OtherFunction */ = {
+			isa = PBXGroup;
+			children = (
+				93EAA42B201867B7001A6A30 /* MYFShowPicutreView.h */,
+				93EAA42C201867B7001A6A30 /* MYFShowPicutreView.m */,
+			);
+			path = OtherFunction;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -510,6 +523,7 @@
 				9319A04C1F6144C6003F63C0 /* UIColor+Gradient.m in Sources */,
 				93CC07881EEE380700192B73 /* EWBaseViewController.m in Sources */,
 				93CC07551EEE310C00192B73 /* main.m in Sources */,
+				93EAA42D201867B7001A6A30 /* MYFShowPicutreView.m in Sources */,
 				93CC07BC1EEE3A4200192B73 /* EWShareViewController.m in Sources */,
 				93CC07B61EEE3A2B00192B73 /* EWHomeViewController.m in Sources */,
 				93CC07821EEE357500192B73 /* EWTabBarController.m in Sources */,
